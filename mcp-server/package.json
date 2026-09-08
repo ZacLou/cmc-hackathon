@@ -1,0 +1,17 @@
+{
+  "name": "cmc-agent-mcp",
+  "version": "1.0.0",
+  "description": "MCP server wrapping CMC AI Market Agent — live crypto market data for any LLM agent",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "cmc-agent-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
